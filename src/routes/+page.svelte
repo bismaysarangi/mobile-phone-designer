@@ -247,19 +247,19 @@
         </button>
 
         <button class="w-12 h-12 flex items-center justify-center bg-white border rounded cursor-pointer hover:bg-gray-50" on:click={() => addShape("rectangle")} aria-label="Add Rectangle">
-          ⬜
+          🟥
         </button>
 
         <button class="w-12 h-12 flex items-center justify-center bg-white border rounded cursor-pointer hover:bg-gray-50" on:click={() => addShape("circle")} aria-label="Add Circle">
-          ⚪
+          🟠
         </button>
 
         <button class="w-12 h-12 flex items-center justify-center bg-white border rounded cursor-pointer hover:bg-gray-50" on:click={() => addShape("line")} aria-label="Add Line">
-          ―
+          ➖
         </button>
 
         <button class="w-12 h-12 flex items-center justify-center bg-white border rounded cursor-pointer hover:bg-gray-50" on:click={undo} aria-label="Undo">
-          ↩
+          Undo
         </button>
 
         <button class="w-12 h-12 flex items-center justify-center bg-white border rounded cursor-pointer hover:bg-gray-50" on:click={saveImage} aria-label="Save Image">
